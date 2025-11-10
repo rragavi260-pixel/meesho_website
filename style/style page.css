@@ -1,0 +1,90 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+       
+        background-color: #fdfdfd;
+        color: #333;
+        padding: 20px;
+
+    }
+
+
+    nav {
+        background-color: #dac3d1;
+        padding: 20px;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: rgb(62, 62, 203);
+        font-size: 30px;
+        font-weight: bold;
+        gap:500px;
+        margin-left: 200px;
+    }
+
+
+    header {
+        text-align: center;
+        margin: 30px 0;
+        margin-top: 50px;
+    }
+
+
+
+    header button {
+        
+        background-color: #03d3da;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .collection {
+        margin: 10px 0;
+        padding: 20px;
+        border: 1px solid #ccc;
+
+    }
+
+    
+
+    .details {
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .product img {
+        height: 300px;
+        width: 2000px;
+        padding: 20px;
+        background-color: #eee;
+        grid-template-columns: 50px;
+        border-radius: 50px;
+
+    }
+
+        .size{
+        width: 75px;
+        }
+
+        .one:hover {
+            transform: scale(1.02);
+        }
+        
+    .contact-btn a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    color: rgb(241, 52, 9);             
+    }
+
